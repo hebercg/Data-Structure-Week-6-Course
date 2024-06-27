@@ -19,5 +19,26 @@ public class RecursionTutorial {
             //did not find hi, so only need to move down 1 position in teh string str
             return countHi(str.substring(1));
         }
+    }//countHi
+
+    public  String removeX(String str){
+        str = str.toLowerCase();
+        //base case
+        if (str.length() < 1){
+            System.out.println("String too small to recurse on..");
+            return str;
+        //found x, remove it and call removeX recursively
+        }
+        else if (str.charAt(0) == 'x') {
+            return removeX(str.substring(1));
+        }
+        else{
+            //did not find x, but still need to call removeX recursively
+            return str.charAt(0) + removeX(str.substring(1));
+            //return str  + "end";
+        }
+
     }
+
 }
+
