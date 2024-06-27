@@ -1,5 +1,9 @@
 package DS23244Week6;
 
+/**
+ *
+ * @author hebergoncalves
+ */
 public class RecursionTutorial {
 
         //given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.

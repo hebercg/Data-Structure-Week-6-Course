@@ -1,5 +1,9 @@
 package DS23244Week6;
 
+/**
+ *
+ * @author hebergoncalves
+ */
 public class RecursionTutorialApp{
     public static void main(String[] args) {
         RecursionTutorial myRT = new RecursionTutorial();
