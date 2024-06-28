@@ -47,7 +47,7 @@ public class RecursionTutorial {
             return false;
         }
         // check if current element is the value we're looking for
-       else if (arr[index] == value) {
+        else if (arr[index] == value) {
             return true;
         }
         // recursively check the next part of the array

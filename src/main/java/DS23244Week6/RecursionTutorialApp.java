@@ -21,7 +21,7 @@ public class RecursionTutorialApp {
 
         //test array
         System.out.println("#########testing containsValue##########");
-        int[] array1 = {2, 3, 6, 9, 21 };
+        int[] array1 = {2, 3, 6, 9, 21};
         int[] array2 = {10, 20, 30, 40, 50};
         System.out.println("containsValue (array1, 3): " + myRT.containsValue(array1, 0, 3));
         System.out.println("containsValue (array2, 25): " + myRT.containsValue(array2, 0, 25));
