@@ -55,3 +55,20 @@ public class RecursionTutorial {
     }
 }
 
+public String endX(String srt) {
+    str = toString().toLowerCase();
+    if (toString().length() <= 0) {
+        return str;
+    } else if (toString().charAt(0) == 'x') {
+        return endX(toString().substring(1)) + toString().charAt(0);
+    } else {
+        return str.charAt(0) + endX(toString().substring(1));
+    }
+}
+
+public int sumDigits(int num){
+    return num % 10;
+}
+}
+
+
